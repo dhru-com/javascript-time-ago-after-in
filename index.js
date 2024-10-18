@@ -1,5 +1,3 @@
-// Define the language labels inside the file
-
 const locales = {
     en: {
         second: "second",
@@ -14,9 +12,9 @@ const locales = {
         months: "months",
         year: "year",
         years: "years",
-        ago: "ago",
-        in: "in",
-        now: "Just now"
+        ago: "Moments ago",  // For past events
+        in: "Within seconds",  // For future events
+        now: "within seconds"
     },
     fr: {
         second: "seconde",
@@ -31,9 +29,9 @@ const locales = {
         months: "mois",
         year: "année",
         years: "années",
-        ago: "il y a",
-        in: "dans",
-        now: "À l'instant"
+        ago: "il y a quelques instants",  // Moments ago
+        in: "dans quelques secondes",  // Within seconds
+        now: "en quelques secondes"
     },
     es: {
         second: "segundo",
@@ -48,9 +46,9 @@ const locales = {
         months: "meses",
         year: "año",
         years: "años",
-        ago: "hace",
-        in: "en",
-        now: "Ahora mismo"
+        ago: "hace unos momentos",  // Moments ago
+        in: "en unos segundos",  // Within seconds
+        now: "en segundos"
     },
     de: {
         second: "Sekunde",
@@ -65,9 +63,9 @@ const locales = {
         months: "Monate",
         year: "Jahr",
         years: "Jahre",
-        ago: "vor",
-        in: "in",
-        now: "Gerade jetzt"
+        ago: "vor wenigen Augenblicken",  // Moments ago
+        in: "in wenigen Sekunden",  // Within seconds
+        now: "in Sekunden"
     },
     ru: {
         second: "секунда",
@@ -82,9 +80,9 @@ const locales = {
         months: "месяцев",
         year: "год",
         years: "лет",
-        ago: "назад",
-        in: "через",
-        now: "Прямо сейчас"
+        ago: "мгновение назад",  // Moments ago
+        in: "в течение секунд",  // Within seconds
+        now: "в течение секунд"
     },
     it: {
         second: "secondo",
@@ -99,9 +97,9 @@ const locales = {
         months: "mesi",
         year: "anno",
         years: "anni",
-        ago: "fa",
-        in: "in",
-        now: "Adesso"
+        ago: "pochi istanti fa",  // Moments ago
+        in: "in pochi secondi",  // Within seconds
+        now: "in pochi secondi"
     },
     nl: {
         second: "seconde",
@@ -116,9 +114,9 @@ const locales = {
         months: "maanden",
         year: "jaar",
         years: "jaren",
-        ago: "geleden",
-        in: "in",
-        now: "Nu"
+        ago: "enkele ogenblikken geleden",  // Moments ago
+        in: "binnen enkele seconden",  // Within seconds
+        now: "binnen seconden"
     },
     pt: {
         second: "segundo",
@@ -133,9 +131,9 @@ const locales = {
         months: "meses",
         year: "ano",
         years: "anos",
-        ago: "atrás",
-        in: "em",
-        now: "Agora"
+        ago: "há instantes",  // Moments ago
+        in: "em segundos",  // Within seconds
+        now: "em segundos"
     },
     zh: {
         second: "秒",
@@ -150,9 +148,9 @@ const locales = {
         months: "月",
         year: "年",
         years: "年",
-        ago: "前",
-        in: "后",
-        now: "刚刚"
+        ago: "片刻前",  // Moments ago
+        in: "几秒内",  // Within seconds
+        now: "几秒内"
     },
     ja: {
         second: "秒",
@@ -167,9 +165,9 @@ const locales = {
         months: "月",
         year: "年",
         years: "年",
-        ago: "前",
-        in: "後",
-        now: "たった今"
+        ago: "数秒前",  // Moments ago
+        in: "数秒以内",  // Within seconds
+        now: "数秒以内"
     },
     ko: {
         second: "초",
@@ -184,9 +182,9 @@ const locales = {
         months: "달",
         year: "년",
         years: "년",
-        ago: "전",
-        in: "후",
-        now: "방금"
+        ago: "방금 전",  // Moments ago
+        in: "몇 초 이내에",  // Within seconds
+        now: "몇 초 이내에"
     },
     ar: {
         second: "ثانية",
@@ -201,9 +199,9 @@ const locales = {
         months: "أشهر",
         year: "سنة",
         years: "سنوات",
-        ago: "منذ",
-        in: "في",
-        now: "الآن"
+        ago: "منذ لحظات",  // Moments ago
+        in: "في غضون ثوانٍ",  // Within seconds
+        now: "في غضون ثوانٍ"
     },
     hi: {
         second: "सेकंड",
@@ -218,9 +216,9 @@ const locales = {
         months: "महीने",
         year: "साल",
         years: "साल",
-        ago: "पहले",
-        in: "में",
-        now: "अभी"
+        ago: "कुछ क्षण पहले",  // Moments ago
+        in: "सेकंड के भीतर",  // Within seconds
+        now: "सेकंड के भीतर"
     },
     tr: {
         second: "saniye",
@@ -235,9 +233,9 @@ const locales = {
         months: "ay",
         year: "yıl",
         years: "yıl",
-        ago: "önce",
-        in: "içinde",
-        now: "şimdi"
+        ago: "birkaç saniye önce",  // Moments ago
+        in: "birkaç saniye içinde",  // Within seconds
+        now: "birkaç saniye içinde"
     },
     pl: {
         second: "sekunda",
@@ -252,9 +250,9 @@ const locales = {
         months: "miesiące",
         year: "rok",
         years: "lata",
-        ago: "temu",
-        in: "za",
-        now: "teraz"
+        ago: "kilka sekund temu",  // Moments ago
+        in: "w ciągu kilku sekund",  // Within seconds
+        now: "w ciągu kilku sekund"
     }
 };
 
@@ -303,7 +301,7 @@ function formatLocalizedTimeDifference(date1, date2, options = {}) {
 
     // Time formatting logic
     if (seconds < 1) {
-        return labels.now;
+        return isFuture ? labels.in : labels.ago;
     }
     if (seconds < 60) {
         return formatOutput(seconds, labels.seconds, isFuture, labels);
