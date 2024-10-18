@@ -1,5 +1,6 @@
 
 # javascript-time-ago-after-in
+[![NPM version](https://img.shields.io/npm/v/javascript-time-ago-after-in.svg?style=flat)](https://www.npmjs.com/package/javascript-time-ago-after-in)
 
 ## Description
 
