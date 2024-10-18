@@ -1,0 +1,25 @@
+{
+  "name": "javascript-time-ago-after-in",
+  "version": "1.0.0",
+  "description": "Localized relative date/time formatting (both for past and future dates).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhru-com/javascript-time-ago-after-in.git"
+  },
+  "keywords": [
+    "time",
+    "ago",
+    "relative",
+    "format"
+  ],
+  "author": "Bhavanesh Vatalia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhru-com/javascript-time-ago-after-in/issues"
+  },
+  "homepage": "https://github.com/dhru-com/javascript-time-ago-after-in#readme"
+}
